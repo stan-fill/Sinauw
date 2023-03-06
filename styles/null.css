@@ -1,0 +1,25 @@
+button {
+    background: none;
+    border: none;
+    cursor: pointer;   
+    outline: none;
+}
+input {
+    border: none;
+    outline: none;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+img {
+    display: block;
+}

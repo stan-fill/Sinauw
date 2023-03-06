@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="online_course" content="онлайн курс">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/null.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Sinauw</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="">
+                    <img class="logo__link" src="images/logo2.svg" alt="Sinaw">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="item__link active" href="#header" data-text="Home">Home</a></li>
+                        <li class="menu__item"><a class="item__link" href="#courses" data-text="Courses">Courses</a></li>
+                        <li class="menu__item"><a class="item__link" href="#webinar" data-text="Webinar">Webinar</a></li>
+                        <li class="menu__item"><a class="item__link" href="#pricing" data-text="Pricing">Pricing</a></li>
+                    </ul>
+                    <button class="language language-clone">
+                        Eng <img class="lang__button" src="images/language.svg" alt="" >
+                    </button>
+                </nav>
+                <div class="lang_n_log">
+                    <button class="language">
+                        Eng <img class="lang__button" src="images/language.svg" alt="" >
+                    </button>
+                    <button class="button login__btn" type="button" name="Login">
+                        Login
+                    </button>
+                    <div class="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero-section">
+            <div class="hero-section__inner">
+                <div class="hero-section__content">
+                    <div class="container">
+                        <div class="right-block">
+                            <div class="right-block__wrapper">
+                                <div class="right-block-text">
+                                    <h1 class="right-block-text__title title">Grow Your Skills To Advance Your Career Path.</h1>
+                                    <p class="right-block-text__desc desc">We have something big for you who want to level up!</p>
+                                </div>
+                                <div class="search-course">
+                                    <input class="search-course__input" type="search" placeholder="What do you want to learn...">
+                                    <button class="search-btn">
+                                        <img class="search-btn__img" src="images/hero-section/search-btn.svg" alt="Search">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-links">
+                            <p class="block-links__desc desc">Suggestions</p>
+                            <ul class="links-list">
+                                <li class="links-list__item"><a class="links-list__link" href="#0">UI UX Design</a></li>
+                                <li class="links-list__item"><a class="links-list__link" href="#0">CSS Fundamental</a></li>
+                                <li class="links-list__item"><a class="links-list__link" href="#0">3D Design Illustration</a></li>
+                                <li class="links-list__item"><a class="links-list__link" href="#0">Website Development</a></li>
+                                <li class="links-list__item"><a class="links-list__link" href="#0">Logo Design</a></li>
+                                <li class="links-list__item"><a class="links-list__link" href="#0">Icon Design</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-section-image">
+                    <img class="hero-section__img" src="images/hero-section/student-hero.png" alt="">
+                </div>
+            </div>
+            <div class="featured">
+                <div class="container featured__container">
+                    <div class="featured__wrapper">
+                        <div class="featured-block">
+                            <div class="featured-block-text">
+                                <div class="title-img">
+                                    <img class="featured-block__img" src="images/hero-section/featured-1.svg" alt="">
+                                    <span class="title-img__title title">
+                                        Get New Friends
+                                    </span>
+                                </div>
+                                <p class="featured-block-text__desc desc">You will meet new friends in some of classes that you take. Say hello to them and make friends, it will be so much warm friendship!</p>
+                            </div>
+                            </img>
+                        </div>
+                        <div class="featured-block">
+                            <div class="featured-block-text">
+                                <div class="title-img">
+                                    <img class="featured-block__img" src="images/hero-section/featured-2.svg" alt="">
+                                    <span class="title-img__title title">
+                                    Expert and Fun Mentor
+                                </span>
+                                </div>
+                                <p class="featured-block-text__desc desc">
+                                    Learn with earnest and don’t forget to get relax too. Learn and enjoy the materials or classes with our expert mentors.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="featured-block">
+                            <div class="featured-block-text">
+                                <div class="title-img">
+                                    <img class="featured-block__img" src="images/hero-section/featured-3.svg" alt="">
+                                    <span class="title-img__title title">
+                                    Flexible Access
+                                    </span>
+                                </div>
+                                <p class="featured-block-text__desc desc">
+                                    You can access materials or classes easily by our website also mobile. Access it everywhere and everytime, no limit for you to learn!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="courses">
+            <div class="container courses__container">
+                <div class="courses__inner" id="courses">
+                    <div class="courses-text">
+                        <h2 class="courses-text__title title">
+                            What Do You Want to Learn?
+                        </h2>
+                        <p class="courses-text__desc desc">
+                            Choose the right class as you need. Then enjoy studying.
+                        </p>
+                    </div>
+                    <div class="classes">
+                        <div class="classes__wrapper">
+                            <div class="course-block">
+                                <div class="video">
+                                    <img class="video__img" src="images/courses/classes__img-1.jpg" alt="">
+                                    <span class="video__number"> 12 Videos </span>
+                                </div>
+                                <p class="course-block__name">
+                                    Technology
+                                </p>
+                                <span class="course-block__title title"> Digital Marketing Strategy</span>
+                                <p class="course-block__desc desc">
+                                    This course aims to give you deeper understanding of core processes ...
+                                </p>
+                                <div class="mentor-button">
+                                    <div class="mentor">
+                                        <img class="mentor__img" src="images/courses/mentor-1__ico.png" alt="">
+                                        <div class="mentor-text">
+                                            <p class="mentor__name">Joey Piere</p>
+                                            <span class="mentor__mentor">Mentor</span>
+                                        </div>
+                                    </div>
+                                    <div class="class-button">
+                                        <button class="class-button__btn button"> Access Class </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-block">
+                                <div class="video">
+                                    <img class="video__img" src="images/courses/classes__img-2.jpg" alt="">
+                                    <span class="video__number"> 7 Videos </span>
+                                </div>
+                                <p class="course-block__name">
+                                    Design
+                                </p>
+                                <span class="course-block__title title">
+                                            Figma Fundamental
+                                        </span>
+                                <p class="course-block__desc desc">
+                                    These lessons and exercises will help you start designing with Figma ...
+                                </p>
+                                <div class="mentor-button">
+                                    <div class="mentor">
+                                        <img class="mentor__img" src="images/courses/mentor-2__ico.png" alt="">
+                                        <div class="mentor-text">
+                                            <p class="mentor__name">Araya Sheila</p>
+                                            <span class="mentor__mentor">Mentor</span>
+                                        </div>
+                                    </div>
+                                    <div class="class-button">
+                                        <button class="class-button__btn button"> Access Class </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-block">
+                                <div class="video">
+                                    <img class="video__img" src="images/courses/classes__img-3.jpg" alt="">
+                                    <span class="video__number"> 10 Videos </span>
+                                </div>
+                                <p class="course-block__name">
+                                    Coding
+                                </p>
+                                <span class="course-block__title title">
+                                    HTML Fundamental
+                                </span>
+                                <p class="course-block__desc desc">
+                                    Well organized and easy to make you understand tutorials with lots of ...
+                                </p>
+                                <div class="mentor-button">
+                                    <div class="mentor">
+                                        <img class="mentor__img" src="images/courses/mentor-3__ico.png" alt="">
+                                        <div class="mentor-text">
+                                            <p class="mentor__name">Ellisa Ruth</p>
+                                            <span class="mentor__mentor">Mentor</span>
+                                        </div>
+                                    </div>
+                                    <div class="class-button">
+                                        <button class="class-button__btn button"> Access Class </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-block">
+                                <div class="video">
+                                    <img class="video__img" src="images/courses/classes__img-4.jpg" alt="">
+                                    <span class="video__number"> 16 Videos </span>
+                                </div>
+                                <p class="course-block__name">
+                                    Coding
+                                </p>
+                                <span class="course-block__title title">
+                                    Android App Development
+                                </span>
+                                <p class="course-block__desc desc">
+                                    Take your Android coding skills to the next level, advanced Android app ...
+                                </p>
+                                <div class="mentor-button">
+                                    <div class="mentor">
+                                        <img class="mentor__img" src="images/courses/mentor-4__ico.png" alt="">
+                                        <div class="mentor-text">
+                                            <p class="mentor__name">Wendy Troye</p>
+                                            <span class="mentor__mentor">Mentor</span>
+                                        </div>
+                                    </div>
+                                    <div class="class-button">
+                                        <button class="class-button__btn button"> Access Class </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="courses__btn" type="button" name="All__Classes">Show All Classes</button>
+                </div>
+            </div>
+        </section>
+        <section class="webinar">
+            <div class="container">
+                <div class="webinar__inner" id="webinar">
+                    <div class="webinar-text">
+                        <h3 class="webinar-text__title title">
+                            Live Online Webinar
+                        </h3>
+                        <p class="webinar-text__desc desc">
+                            You can stream Webinar live on our apps. Stay update on our Webinar, it’s Free!
+                        </p>
+                    </div>
+                    <div class="webinar-slider">
+                        <div class="webinar-slider__inner">
+                            <div class="webinar-slider__left-slide">
+                                <img src="images/webinar/left-side.png" alt="">
+                            </div>
+                            <div class="webinar-slider__central-slide">
+                                <img src="images/webinar/central-slide.png" alt="central-video">
+                            </div>
+                            <div class="webinar-slider__right-slide">
+                                <img src="images/webinar/right-side.png" alt="right-video">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more-videos">
+                        <a class="more-videos__link" href="#0">See more webinar videos
+                            <svg width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                <g data-name="Layer 2" id="Layer_2">
+                                    <path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z" fill="#fff"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pricing">
+            <div class="container pricing__container">
+                <div class="pricing__inner" id="pricing">
+                    <div class="pricing-text">
+                        <h4 class="pricing-text__title title">Course Pricing</h4>
+                        <span class="pricing-text__desc desc">Choose pricing that suits to your need.</span>
+                    </div>
+                    <div class="pricing-blocks">
+                        <div class="pricing-block">
+                            <div class="pricing-block__inner">
+                                <div class="pricing-block__header">
+                                    <img src="images/pricing/star.svg" alt="">
+                                    <div class="pricing-block__header-content">
+                                        <p class="pricing-block__header-title title">Free</p>
+                                        <p class="pricing-block__header-price"><sup>$ </sup>0</p>
+                                    </div>
+                                </div>
+                                <ul class="pricing-block__items">
+                                    <li class="pricing-block__item">Free e-book for every class</li>
+                                    <li class="pricing-block__item">Materials update every day</li>
+                                    <li class="pricing-block__item">Free download material videos</li>
+                                    <li class="pricing-block__item">Unlock 5 material videos</li>
+                                </ul>
+                                <div class="pricing-block__button pricing-block__button-1">
+                                    <a href="#0" class="pricing-block__button-item pricing-block__button-item_nobg pricing-block__button-item_disabled button">Your Current Package</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-block">
+                            <div class="pricing-block__border"></div>
+                            <div class="pricing-block__inner">
+                                <div class="pricing-block__header">
+                                    <img src="images/pricing/key.svg" alt="">
+                                    <div class="pricing-block__header-content">
+                                        <p class="pricing-block__header-title title">Express</p>
+                                        <p class="pricing-block__header-price"><sup>$ </sup>75</p>
+                                    </div>
+                                </div>
+                                <ul class="pricing-block__items">
+                                    <li class="pricing-block__item">Free e-book for every class</li>
+                                    <li class="pricing-block__item">Materials update every day</li>
+                                    <li class="pricing-block__item">Free download material videos</li>
+                                    <li class="pricing-block__item">Meeting 2 times a week</li>
+                                    <li class="pricing-block__item">Unlock 15 material videos</li>
+                                </ul>
+                                <div class="pricing-block__button pricing-block__button-2">
+                                    <a href="#0" class="pricing-block__button-item pricing-block__button-item_nobg button">Buy Express</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-block pricing-block_popular">
+                            <div class="pricing-block__border"></div>
+                            <div class="pricing__inner">
+                                <div class="pricing-block__header">
+                                    <img src="images/pricing/crown.svg" alt="">
+                                    <div class="pricing-block__header-content">
+                                        <p class="pricing-block__header-title title">Premium</p>
+                                        <p class="pricing-block__header-price"><sup>$ </sup>115</p>
+                                    </div>
+                                </div>
+                                <ul class="pricing-block__items">
+                                    <li class="pricing-block__item">Free e-book for every class</li>
+                                    <li class="pricing-block__item">Materials update every day</li>
+                                    <li class="pricing-block__item">Free download material videos</li>
+                                    <li class="pricing-block__item">Private chat with mentor</li>
+                                    <li class="pricing-block__item">Meeting 3 times a week</li>
+                                    <li class="pricing-block__item">Unlock up to 30 material videos</li>
+                                    <li class="pricing-block__item">Unlimited saved class</li>
+                                </ul>
+                                <div class="pricing-block__button  pricing-block__button-3">
+                                    <a href="#0" class="pricing-block__button-item button">Buy Premium</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="get-app">
+            <div class="container">
+                <div class="get-app__inner">
+                    <div class="get-app-leftside">
+                        <div class="get-app-text">
+                            <span class="get-app-text__title title">Get Our Apps, Now!</span>
+                            <p class="get-app-text__desc desc">Reach out our apps everywhere and everytime with Sinauw Mobile Application.</p>
+                        </div>
+                        <div class="get-app-buttons">
+                            <a class="get-app__button-google-play" href="#0"></a>
+                            <a class="get-app__button-app-store" href="#0"></a>
+                        </div>
+                    </div>
+                    <div class="get-app-img">
+                        <img class="get-app-img__image" src="images/get-app/get-app-img__image.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__wrapper">
+                <div class="footer-col-logo">
+                    <a class="logo footer-logo" href="#header">
+                        <img class="logo__link" src="images/footer-logo.svg" alt="Sinaw">
+                    </a>
+                    <p class="footer-col-logo__desc desc">
+                        Any feedback or questions? Contact us on our social media
+                    </p>
+                    <div class="footer-col-logo-icons">
+                        <a class="footer-col-logo-icons__link" href="#0">
+                            <img class="footer-col-logo-icons__icon" src="images/footer/footer-icon-facebook.svg" alt="">
+                        </a>
+                        <a class="footer-col-logo-icons__link" href="#0">
+                            <img class="footer-col-logo-icons__icon" src="images/footer/footer-icon-twitter.svg" alt="">
+                        </a>
+                        <a class="footer-col-logo-icons__link" href="#0">
+                            <img class="footer-col-logo-icons__icon" src="images/footer/footer-icon-instagram.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-menus-columns">
+                    <div class="footer-col-menu">
+                        <ul class="footer-col-menu-list footer-menu">
+                            <li class="footer-col-menu-list__item footer-list-item">
+                                <a class="footer-menu__link footer-menu__link-firstchild item__link" href="#0">Menu</a>
+                            </li>
+                            <li class="footer-col-menu-list__item footer-list-item">
+                                <a class="footer-menu__link item__link" href="#header">Home</a>
+                            </li>
+                            <li class="footer-col-menu-list__item footer-list-item">
+                                <a class="footer-menu__link item__link" href="#courses">Courses</a>
+                            </li>
+                            <li class="footer-col-menu-list__item footer-list-item">
+                                <a class="footer-menu__link item__link" href="#webinar">Webinar</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-service">
+                        <ul class="footer-col-service-list footer-menu">
+                            <li class="footer-col-service-list__item footer-list-item">
+                                <a class="footer-menu__link" href="#0">Services</a>
+                            </li>
+                            <li class="footer-col-service-list__item footer-list-item">
+                                <a class="footer-menu__link" href="#0">Materials Update</a>
+                            </li>
+                            <li class="footer-col-service-list__item footer-list-item">
+                                <a class="footer-menu__link" href="#0">Trusted Mentor</a>
+                            </li>
+                            <li class="footer-col-service-list__item footer-list-item">
+                                <a class="footer-menu__link" href="#0">Free E-book</a>
+                            </li>
+                            <li class="footer-col-service-list__item footer-list-item">
+                                <a class="footer-menu__link" href="#0">Meeting</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-further">
+                        <ul class="footer-col-further-list footer-menu">
+                            <li class="footer-col-further-list__item footer-list-item">
+                                <a class="footer-menu__link" href="#0">Further Information</a></li>
+                            <li class="footer-col-further-list__item footer-list-item">
+                                <a class="footer-menu__link" href="#0">Terms & Conditions</a>
+                            </li>
+                            <li class="footer-col-further-list__item footer-list-item">
+                                <a class="footer-menu__link" href="#0">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-apps">
+                        <ul class="footer-col-apps-list footer-menu">
+                            <li class="footer-col-apps-list__item footer-list-item">
+                                <a class="footer-menu__link" href="#0">Apps Download</a>
+                            </li>
+                            <li class="footer-col-apps-list__item footer-list-item">
+                                <a class="footer-menu__link" href="#0">Google Play Store</a>
+                            </li>
+                            <li class="footer-col-apps-list__item footer-list-item">
+                                <a class="footer-menu__link" href="#0">App Store</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">Copyright © 2021 Sinauw. All Rights Reserved.</div>
+        </div>
+    </footer>
+    <script src="js/header.js"></script>
+    <script src="js/main.js"></script>
+</body>
+<script>
+    const smoothLinks = document.querySelectorAll('.item__link');
+    for (let smoothLink of smoothLinks) {
+        smoothLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            const id = smoothLink.getAttribute('href');
+            document.querySelector(id).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    };
+</script>
+</html>
