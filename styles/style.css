@@ -93,7 +93,7 @@ input {
     color: #D1D1D7;
     font-family: 'Inter', sans-serif;
     font-size: 12px;
-    padding: 0px;
+    padding: 0;
 }
 .language:hover {
     color: #fff;
@@ -299,7 +299,7 @@ input {
 }
 .courses::after {
     top: -700px;
-    right: 0px;
+    right: 0;
     width: 520px;
     height: 940px;
     background-image: url('../images/right-decoration.png');
@@ -342,6 +342,9 @@ input {
     border-radius: 20px;
     border: 3px solid rgba(50, 52, 101, 0.2);
     transition: all 0.7s;
+}
+.course-block:hover {
+    max-height: 494px;
 }
 .course-block svg {
     display: block;
@@ -405,7 +408,7 @@ input {
     max-height: 40px;
 }
 .mentor-text {
-    max-width: 103px;
+    max-width: 110px;
     padding-left: 15px;
     color: #fff;
     font-size: 0;
@@ -661,8 +664,8 @@ input {
 .pricing-block_popular::after {
     content: '';
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 0;
+    top: 0;
     width: 98px;
     height: 98px;
     background-image: url("../images/pricing/pricing-block_popular.svg");
